@@ -9,16 +9,17 @@ import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
 public class NewOrderMain {
+
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         var producer = new KafkaProducer<String, String>(properties());
-        var value = "132123,67523,7894589745";
+        var value = "132123,67523,1234";
         var record = new ProducerRecord<>("ECOMMERCE_NEW_ORDER", value, value);
         producer.send(record, (data, ex) -> {
-            if(ex != null){
+            if(ex != null) {
                 ex.printStackTrace();
                 return;
             }
-            System.out.println("Sucesso enviando " + data.topic() + ":::partition " + data.partition() + "/ offset " + data.offset() + "/ timestamp " + data.timestamp());
+            System.out.println("sucesso enviando " + data.topic() + ":::partition " + data.partition() + "/ offset "  + data.offset() + "/ timestamp " + data.timestamp());
         }).get();
     }
 
