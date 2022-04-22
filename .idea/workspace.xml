@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="568d5a26-c942-4f6b-8c8f-2428d121d76c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/CorrelationId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/MessageAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-http-ecommerce/src/main/java/br/com/alura/ecommerce/HttpEcommerceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-http-ecommerce/src/main/java/br/com/alura/ecommerce/HttpEcommerceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/MessageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/MessageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/GsonDeserializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/GsonDeserializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/GsonSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/GsonSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/KafkaDispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/KafkaDispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/KafkaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/KafkaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/ReadingReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/ReadingReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-reading-report/src/main/java/br/com/alura/ecommerce/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reading-report/target/classes/br/com/alura/ecommerce/ReadingReportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-reading-report/target/classes/br/com/alura/ecommerce/ReadingReportService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reading-report/target/classes/br/com/alura/ecommerce/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-reading-report/target/classes/br/com/alura/ecommerce/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/BatchSendMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/BatchSendMessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-users/target/classes/br/com/alura/ecommerce/BatchSendMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/target/classes/br/com/alura/ecommerce/BatchSendMessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-users/target/classes/br/com/alura/ecommerce/CreateUserService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,9 +219,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CreateUserService" />
+        <item itemvalue="Application.ReadingReportService" />
         <item itemvalue="Application.BatchSendMessageService" />
         <item itemvalue="Application.HttpEcommerceService" />
-        <item itemvalue="Application.ReadingReportService" />
         <item itemvalue="Application.FraudDetectorService" />
       </list>
     </recent_temporary>
