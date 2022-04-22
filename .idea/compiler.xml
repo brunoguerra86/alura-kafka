@@ -23,5 +23,6 @@
         <module name="service-users" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="15" />
   </component>
 </project>

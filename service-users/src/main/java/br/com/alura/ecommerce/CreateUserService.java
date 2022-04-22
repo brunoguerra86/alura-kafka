@@ -7,7 +7,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Map;
 import java.util.UUID;
-import java.util.concurrent.ExecutionException;
 
 public class CreateUserService {
 
@@ -20,6 +19,7 @@ public class CreateUserService {
             connection.createStatement().execute("create table Users (" +
                     "uuid varchar(200) primary key," +
                     "email varchar(200))");
+            connection.createStatement().execute("insert into Users values ('123','123@email.com'");
         } catch(SQLException ex) {
             // be careful, the sql could be wrong, be reallllly careful
             ex.printStackTrace();
